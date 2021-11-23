@@ -18,7 +18,8 @@ import requests
 r = requests.get("https://coreyms.com")
 print(r.status_code)
 print(sys.executable)
-print (sys.version)
+
 
 name = input("Your name? ")
 print("Hello ", name)
+print(r.ok)
